@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please read this text");
+            Console.Write("This is new text");
+
+            Console.WriteLine("Now the other way around");
+
+            Console.Write("This is Console Write");
+            Console.WriteLine("And this is Console.WriteLine");
+        }
+    }
+}
