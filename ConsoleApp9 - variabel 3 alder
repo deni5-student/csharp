@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp9
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string messege = "Hello World";
+            Console.WriteLine(messege);
+
+            Console.WriteLine("Please write your name: ");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Welcome " + name);
+            Console.WriteLine("\n");
+            Console.WriteLine($"Your name is: {name}");
+            Console.WriteLine("\n");
+            Console.WriteLine(name + " please enter your age");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\n");
+            Console.WriteLine("Your age is " + age);
+            Console.ReadKey();
+
+        }
+    }
+}
