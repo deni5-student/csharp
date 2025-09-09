@@ -1,0 +1,50 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp7
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Mario
+            float speed = 10;
+            int health = 100;
+            bool alive = true;
+            string name = "Mario";
+
+            Console.WriteLine("Variabler spiller en stor rolle i programmering");
+            Console.Write("\n");
+            Console.WriteLine("Nintendo spillet Mario:");
+            Console.WriteLine("Speed: " + speed);
+            Console.WriteLine("Health: " + health);
+            Console.WriteLine("Player alive: " + alive);
+            Console.WriteLine("Player name: "+ name );
+            Console.Write("\n");
+
+            // Haruki Murakami 1084
+            string titel = "1084";
+            string forfatter = "Haruki Murakami";
+            int antalSider = 1334;
+            bool didRead = true;
+            float rating = 9.98f;
+
+            Console.WriteLine("Bogen fra Haruki Murakami: 1084");
+            Console.WriteLine("Titel: " + titel);
+            Console.WriteLine("Forfatter: " + forfatter);
+            Console.WriteLine("Antal sider: " + antalSider);
+            Console.WriteLine("Er bogen læst: " + didRead);
+            Console.WriteLine("Rating: " + rating);
+            Console.Write("\n");
+
+            Console.WriteLine("Definition af en variabel er at erklære en variabel.");
+            Console.WriteLine("Opret en variabel med et given navn og type.");
+            Console.WriteLine("Afsæt plads i hukommelsen til noget data af en hvis størrelse (datatype).");
+            Console.WriteLine("Definition af en variabel. To declare a variable.");
+
+        }
+    }
+}
