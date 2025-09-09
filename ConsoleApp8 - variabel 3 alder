@@ -4,27 +4,40 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp9
+namespace ConsoleApp8
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string messege = "Hello World";
-            Console.WriteLine(messege);
+            Console.WriteLine("int age");
 
-            Console.WriteLine("Please write your name: ");
-            string name = Console.ReadLine();
+            Console.WriteLine(" int er datatype,  age er identifier ");
 
-            Console.WriteLine("Welcome " + name);
-            Console.WriteLine("\n");
-            Console.WriteLine($"Your name is: {name}");
-            Console.WriteLine("\n");
-            Console.WriteLine(name + " please enter your age");
-            int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("\n");
-            Console.WriteLine("Your age is " + age);
-            Console.ReadKey();
+            Console.WriteLine(" age er identifier, 10 er value ");
+            Console.Write("\n");
+
+            Console.WriteLine("//Declare and assign it a value in the same line");
+
+            Console.WriteLine(" int age = 10; ");
+
+            Console.Write("\n");
+
+           Console.WriteLine("//Declare in one line and assign a value in next line");
+
+            Console.WriteLine(" int otherage; ");
+
+            Console.WriteLine(" otherage = 10; ");
+
+            Console.Write("\n");
+
+            Console.WriteLine("Flere variabler kan også defineres på samme linje");
+            Console.WriteLine("int alder, dinAlder, voresAlder;");
+
+            Console.WriteLine("variabler kan også erklæres og instantiers på samme linje");
+            Console.WriteLine("int alder = 10, dinAlder = 15, voresAlder = 23;");
+
+
 
         }
     }
