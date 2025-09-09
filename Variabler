@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp6
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("I C# så findes der flere datatyper.");
+            Console.WriteLine("En variabel bruges til at gemme data.");
+            Console.WriteLine("Først skal man definere hvilken type data man vil gemme ved at erklære det.");
+            Console.WriteLine("Derefter kan værdierne gemmes i de datatyper.");
+            Console.WriteLine("Dem vi skal se på er Integer (int), Floating-Point, Decimal, Boolean, Character(char) og string.");
+
+            Console.WriteLine("name = \"John\"; er en string");
+            Console.WriteLine("streenumber = 30; er en int");
+            Console.WriteLine("male = true; er en boolean");
+            Console.WriteLine("char = \'A\'; er enkelt character");
+        }
+    }
+}
