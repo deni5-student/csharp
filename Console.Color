@@ -1,0 +1,19 @@
+using System;
+
+namespace ConsoleApp1
+{
+  internal class Program
+  {
+    static void Main(string[] args)
+    {
+    Console.BackgroundColor = ConsoleColor.Blue;
+    Console.ForegroundColor = ConsoleColor.White;
+
+    Console.Write("TEST\n");
+    Console.Write("123");
+    Console.Write("567");
+    Console.WriteLine("Hello World");
+    }
+  }
+
+}
