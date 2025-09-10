@@ -1,0 +1,63 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp10
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hej og velkommen til mailings programmet.");
+            Console.WriteLine("Vi vil gerne bede om dine oplysninger så vi kan sende dig post.");
+            Console.WriteLine("Please press enter...");
+            Console.ReadKey();
+
+            Console.WriteLine("Vær venlig og skriv dit navn: ");
+            string navn = Console.ReadLine();
+            Console.WriteLine("Adresse: ");
+            string adresse = Console.ReadLine();
+            Console.WriteLine("By: ");
+            string by = Console.ReadLine();
+            Console.WriteLine("Post nummer: ");
+            int postnummer = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Telefon nummer:");
+            int telefonNummer = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Alder:");
+            int alder = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Indtast din e-mail adresse: ");
+            string email = Console.ReadLine();
+
+            if (email.Contains("@"))
+            {
+                Console.WriteLine("Indtastet tekst indeholder E-mail format");
+            }
+            else
+            {
+                Console.WriteLine("Indtastet tekst indeholder IKKE E-mail format");
+            }
+
+            Console.WriteLine("Please press enter...");
+
+            Console.ReadKey();
+
+            Console.WriteLine("Tusind tak for dine oplysninger");
+            Console.WriteLine("Mailings systemet genere nu din post...");
+            Console.WriteLine("Please press enter...");
+            Console.ReadKey();
+            Console.WriteLine("+----------------------------------------+");
+            Console.WriteLine("|-POST TIL-------------------------------|");
+            Console.WriteLine("|-" + navn + "---------------------------|");
+            Console.WriteLine("|-" + adresse + "------------------------|");
+            Console.WriteLine("|-" + by + " " + postnummer + "-------------------|");
+            Console.WriteLine("|----------------------------------------|");
+            Console.WriteLine("|----------------------------------------|");
+            Console.WriteLine("|---" + email + "-------------|");
+            Console.WriteLine("+----------------------------------------+");
+
+        }
+    }
+}
