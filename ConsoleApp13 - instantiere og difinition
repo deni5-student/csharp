@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp13
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // instantiering og difinition
+            //deklare a int and assig a value in the same line
+            int alder = 10;
+
+            //deklare an int and then in a new line assing a value
+            int otherAge;
+            otherAge = 10;
+
+            Console.WriteLine("int alder = 10;");
+            Console.WriteLine("int otherAge;");
+            Console.WriteLine("otherAge = 10;");
+        }
+    }
+}
