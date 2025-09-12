@@ -1,0 +1,22 @@
+ConsoleApp23 - løb array igennem løkke forloop
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp23
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] myArray = new int[4] { 7, 9, 13, 8 };
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                Console.WriteLine(myArray[i]);
+            }
+        }
+    }
+}
