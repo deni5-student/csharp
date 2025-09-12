@@ -1,0 +1,107 @@
+Bool - 002 Operations
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Bool_2___Bool_Operations
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // BOOLSKE OPERATIONER
+            // sammelign (==)
+            // Sammenholder venstre side med højre side, hvis begge har samme værdi så er udtrykket sandt
+            // int age = 13;
+            // string name = "Hugo";
+            // 1:  age == 13
+            // 2:  name == Hugo
+
+            int age = 13;
+            string name = "Hugo";
+
+            age == 13
+            name == "Hugo"
+
+
+            // større > / mindre end < operationer
+            // Sammenholder venstre side med højre side, hvis forholdet passer er udtrykket sandt
+
+            int age = 13;
+
+            1.age < 13;
+            2.age > 13;
+            3.age < 14;
+
+            // Boolsk operationer
+            // Not equal !=
+
+            // hvis du har to sider som er forskellige så er udtrykket sandt
+            int age = 13;
+            string name = "Hugo";
+
+            name != "Hugo";
+            name != "Lars";
+            name != "Joe" && age != 14;
+            name != "Peter" || age != 25;
+            name == "Hugo" || age == 13;
+
+            //Boolske Operationer
+            // Not (!)
+            //
+            // Hvis en betingelse er true bliver den til false eller omvendt
+
+            bool alive = true;
+            int age = 13;
+            string name = "Hugo";
+
+            1. !alive
+            2. !(age == 13) && alive;
+            3. (age == 13) || !alive;
+
+            //Boolske operationer
+            // 
+            // Større eller lig med (>=) / mindre eller lign med (<=)
+            // sammenholder venstre side med højre side. Hvis forholdet passer er udtrykket sandt.
+
+            int age = 13;
+
+            age <= 12;
+            age >= 13;
+            age <= 14;
+            age >= 10 && age <= 20;
+
+
+            // Boolske operationer 
+            //
+            // AND (&&)
+            //
+            // betyder at den såvel som den venstre værdi såvel som den højre side skal være sande
+
+            int age = 13;
+            string name = "Hugo";
+
+            age == 10 && name == "Hugo";
+            age == 13 && name == "hugo";
+
+            // Boolske Operationer
+            //
+            // OR (||)
+            //
+            // Hvis den ene side er sand er udtrykket sandt
+
+            int age = 13;
+            string name = "Hugo";
+
+            age == 10 || brugernavn == "Hugo";
+            age == 13 || brugernavn == "hugo";
+            age == 30 || brugernavn == "Hans";
+
+
+
+
+        }
+    }
+}
