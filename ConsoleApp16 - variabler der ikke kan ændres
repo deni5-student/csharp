@@ -1,0 +1,26 @@
+ConsoleApp16 - variabler der ikke kan ændres
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp16
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //variabler der ikke kan ændres
+
+            int age = 10;
+            age = 23;
+
+            Console.WriteLine("//variabler der ikke kan ændres");
+            Console.WriteLine("int age = 10;");
+            Console.WriteLine("age = 23;");
+            Console.WriteLine("du får computerfejl hvis du prøver at gøre dette");
+        }
+    }
+}
