@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp14
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //flere variabler på 1 linje
+
+            //flere variabler kan defineres på samme linje
+            int dinAlder, minAlder, voresAlder;
+
+            Console.WriteLine("//flere variabler kan defineres på samme linje");
+            Console.WriteLine("int dinAlder, minAlder, voresAlder;");
+
+            //flere variabler kan både instantieres og defineres på samme linje
+            int dinAlder = 10, minAlder = 10, voresAlder = 10;
+
+            Console.WriteLine("//flere variabler kan både instantieres og defineres på samme linje");
+            Console.WriteLine("int dinAlder = 10, minAlder = 10, voresAlder = 10;");
+        }
+    }
+}
