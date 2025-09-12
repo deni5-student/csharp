@@ -1,0 +1,25 @@
+ConsoleApp17 - string som variable
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp17
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //define a string variable 
+            string messege = "Hello World";
+
+            //Feeds the message to the console
+            Console.WriteLine(messege);
+
+            //pause the program
+            Console.ReadLine();
+        }
+    }
+}
