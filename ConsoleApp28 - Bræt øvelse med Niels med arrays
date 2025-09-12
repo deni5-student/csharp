@@ -1,0 +1,57 @@
+ConsoleApp28 - Bræt øvelse med Niels med arrays
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp28
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //opretter X og 0 brættet med 3x3 felter
+            string[,] braet = new string[3, 3];
+
+            //forløkke der fylder den med tomme felter som punktum
+            for(int raekke = 0; raekke < 3; raekke++)
+            {
+                for(int kol = 0; kol < 3; kol++)
+                {
+                    braet[raekke, kol] = ".";
+                }
+            }
+
+            PrintBraet();
+
+            braet[0, 0] = "X";
+
+            Console.ReadKey();
+            Console.Clear();
+            PrintBraet();
+
+            braet[2, 2] = "0";
+
+            Console.ReadKey();
+            Console.Clear();
+            PrintBraet();
+
+            void PrintBraet()
+            {
+                //udskriver indhold af hvert felt i brættet
+                for (int raekke = 0; raekke < 3; raekke++)
+                {
+                    for (int kol = 0; kol < 3; kol++)
+                    {
+                        Console.Write(braet[raekke, kol] + " ");
+                    }
+                    Console.WriteLine();
+                    
+                }
+
+            }
+        }
+    }
+}
