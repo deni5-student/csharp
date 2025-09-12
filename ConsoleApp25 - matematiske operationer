@@ -1,0 +1,33 @@
+ConsoleApp25 - matematiske operationer
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp25
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // rene metatematiske operationer
+            // man køre plus + , munis -, gange *, dividere /.
+            // Det gør det muligt at udregne beregninger
+            // Og man kan blade variabler med værdier og dermed udregne dem
+
+            int a = 12;
+            int b = 34;
+            int x = a + b;
+
+            // særligt om division
+            // man kan ikke dividere med 0
+
+            int a = 12;
+            int b = 0;
+            int x = a / b;
+            int y = a / 0;
+
+        }
+    }
+}
