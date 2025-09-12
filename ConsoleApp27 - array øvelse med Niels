@@ -1,0 +1,55 @@
+ConsoleApp27 - array øvelse med Niels
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp27
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+             * starte med at oprette et array
+             * det skal være en string
+             * med firkantet parentets er det string array
+             * der anvendes en for-løkke
+             * 
+             */
+
+            string[] spillere = { "Anders", "Else", "Hans", "Kaj", "Inge", "Kurt", "Tove" };
+            Console.WriteLine("Element nummer #0 er: " + spillere[0]);
+
+            //Vi viser arrays længde
+            Console.WriteLine("Listen indeholder " + spillere.Length + " Elementer");
+
+            // En løkke der gennemløber hele arrayet
+            for (int i = 0; i < spillere.Length; i++)
+            {
+                //viser både index og indhold
+                Console.WriteLine("Spiller #" + i + " hedder " + spillere[i]);
+            }
+
+            // henter en spiller i array spillere
+            foreach(string spiller in spillere)
+            {
+                Console.WriteLine(spiller);
+            }
+
+            // Vi opretter en variabel index til positionen i array
+            int index = 0;
+            //Foreach er en Forløkke det er en løkke men den er nød til at have en array ellers kan den ikke køre
+            foreach (string spiller in spillere)
+            {
+                //Viser array-elementer
+                Console.WriteLine($"spillere {spiller} har index {index} ");
+                index++;
+            }
+
+
+
+        }
+    }
+}
