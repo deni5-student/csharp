@@ -1,0 +1,27 @@
+ConsoleApp30 - beregningsøvelse
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp30
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Goddag");
+            Console.WriteLine("Indtast et tal");
+            int tal1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Det tal vil nu blive plusset med det næste tal du indtaster");
+            int tal2 = Convert.ToInt32(Console.ReadLine());
+
+            int sum = tal1 + tal2;
+            Console.WriteLine("summen er: " + sum);
+
+        }
+    }
+}
