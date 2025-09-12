@@ -1,1 +1,1 @@
-This fike is a read me
+This file is a read me
