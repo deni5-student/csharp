@@ -1,0 +1,33 @@
+ConsoleApp19 - converting string to int
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp19
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //console.readline giver dig en string det kan ikke være en int
+
+            // int age2 = Console.ReadLine(); < kan ikke gøres
+
+            Console.WriteLine("Dette er Console.ReadLine som er en string");
+            Console.WriteLine("indtast et tal: ");
+
+            string tal = Console.ReadLine();
+
+            int tal = Convert.ToInt32(Console.ReadLine());
+
+
+            // kan konverter string til int
+
+           
+            Console.WriteLine(age);
+        }
+    }
+}
