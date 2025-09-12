@@ -1,0 +1,29 @@
+ConsoleApp22 - Array
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp22
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] myArray = new int[3];
+            // index 0, 1, 2
+            // værdi 0, 0, 0
+
+            int[] myArray = new int[3] { 7, 9, 13 };
+            // index 0, 1, 2
+            // værdi 7, 9, 13
+
+            int[] myArray = new int[] { 7, 9, 13 };
+            // index 0, 1, 2
+            // værdi 7, 9, 13
+
+        }
+    }
+}
