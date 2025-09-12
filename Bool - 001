@@ -1,0 +1,51 @@
+Bool - 001
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp31
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Boolske udstryk
+            
+            /*  HVAD ER BOOLSKE UDTRYK
+             *  I datalogi har man også behov for at simplificere problemstillinger
+             *  Ofte reduceres disse til simple udtryk, som kan være enten sande eller falske
+             *  Boolske Udtryk giver muligheden for dette feks. Hvis man skal vide følgende:
+             *   - Er brugeren aktiv
+             *   - Er ordren sendt
+             *   - Har brugeren godkendt betingelserne?
+             *   - Er backuppen kørt/afsluttet?
+             *   - Er sensordata inden for normalområdet?
+             *   - Er der vand i kælderen?
+             */
+
+            // Resultatet af et boolsk udtryk kan gemmes i en variabel af typen bool
+            // Husk at bool kun kan have to værdier: Sand eller falsk altså: TRUE or FALSE
+            // Må brugeren anvende et bestemt funktion?
+            // VI er nået til den sidste på listen - skal vi forsætte?
+            // Skal brugeren modtage en email
+
+            // Boolsk udtryk er en form for logisk udtryk
+            // Det kan feks være en sammenligning
+            // == bruges til at sammen ligne to værdier i C#
+            // givet at vi har en variabel følgende værdi: int age = 13;
+            // giver følgende boolsk værdi så true eller false? ved int age = 12;?
+            // age == 12
+
+            /* Et Boolsk udtryk kan være opbygget af flere mindre boolske udtryk
+             * her bruges en række operationer til at sammensætte udtrykkene
+             * Har kunden sagt ja til emails, og er brugeren inden for relevant segment
+             *  -> Hvis TRUE: send e-mail
+             *  
+             *  Har kunden sagt nej til e-mail, eller er kunden udenfor relevant segment
+             *  så er udsagnet false, og der sendes ikke en e-mail
+             */
+        }
+    }
+}
