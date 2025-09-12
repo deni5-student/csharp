@@ -1,0 +1,46 @@
+ConsoleApp29 - kombinerede matematiske operationer
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp29
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 12;
+            int b = 22;
+
+            //Læg værdi til nuværende (+=)
+
+            a = a + b;
+
+            a += b;
+
+            //Træk værdi fra nuværende (-=)
+            
+            a = a - b;
+
+            a -= b;
+
+            //gange værdi med nuværende (*=)
+            
+            a = a * b;
+
+            a *= b;
+
+            //Divider værdi med nuværende (/=)
+
+            a = a / b;
+
+            a /= b;
+
+
+
+        }
+    }
+}
