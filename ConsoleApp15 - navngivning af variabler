@@ -1,0 +1,23 @@
+ConsoleApp15 - navngivning af variabler
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp15
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // navngivning af variabler
+            string bookTitle = "Three Body Problem";
+            string authorName = "Haruki Murakami";
+            bool Didread = true;
+            string Genretype = "Science Fiction";
+
+        }
+    }
+}
