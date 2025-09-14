@@ -1,0 +1,56 @@
+ConsoleApp33 - flow control
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp33
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // DE TRE STRUKTURER I PROGRAMMERING
+
+            // Programmer bygges med kun tre strukturer
+            // Sekvenser. Sekventielt, er når noget sker efter hinanden i rækkefølge
+            // Løkker, gentagelser er når dele af programmet gentages
+            // Forgreninger, når der enten udføres en del af programmet, eller anden del
+            //
+            // Vi bruger altså løkker eller forgreninger til at bryde sekvensen. Det kaldes flow control.
+            //
+            // FLOW CONTROL
+            //
+            // En måde hvorpå man kan kontrollere kodens flow
+            //
+            //      START            START
+            //        |                |
+            //        |                |
+            //        v             +<-+-<+
+            //      SLUT            |LOOP |
+            //                      +>-+->+
+            //                         |
+            //                         |
+            //                      +<-+->+
+            //                      | IF  | if statement
+            //                      +->+<-+
+            //                         v
+            //
+            // FLOW CONTROL:
+            // Sequential - eksekvering sekventielt
+            // Selection - betinget eksevering
+            // Iteration - gentagen eksevering
+            // Recursion - gentaget funktionskald
+            //
+            // -> IF sætninger
+            //    kode bliver kun eksekveret hvis en betingelse er gældende
+            // -> SWITCH
+            //    en blok af kode, som har x antal betingelser, dele af koden eksekveres alt efter den aktuelle betingelse
+            // -> LØKKER
+            //    Koden køres x antal gange i forhold til en betingelse, og løkken type 
+            //
+
+        }
+    }
+}
