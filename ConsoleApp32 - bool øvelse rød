@@ -1,0 +1,33 @@
+ConsoleApp32 - bool øvelse rød
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp32
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Bool Øvelse RØD
+            // Givet a=3.4 og b= 10, løs nedenstående problemstillinger
+            //
+
+            //1. hvad er resultatet
+
+            (a == 2 && a < 5) || a > 3;
+
+            //2. Har udtrykket evt. overflødige dele? Hvorfor og hvis ja, fjern dem:
+
+            a != b && b - a != 0;
+
+            //3. Har udtrykket evt. overflødige dele? Hvorfor og hvis ja, fjern disse
+            
+            b < a && a != b && b - a != 0;
+
+
+        }
+    }
+}
