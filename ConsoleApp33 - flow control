@@ -1,7 +1,7 @@
-ConsoleApp33 - flow control
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -50,6 +50,103 @@ namespace ConsoleApp33
             // -> LØKKER
             //    Koden køres x antal gange i forhold til en betingelse, og løkken type 
             //
+            //
+            // Kode, som kun eksekveres når en bestemt betingelse er gældende
+            //
+            // en if sætning kunne fx eksekvere på følgende betingelser:
+            // HVIS brugeren ikke har skiftet adgangskode i mere end 3 måneder.
+            // HVIS kunden har sagt ja til at modtage emails.
+            //
+            // if sætninger 
+            //
+            // struktur
+            // Hvis betingelsen (condition) opfyldes (er sand) køres koden i kodeblokken {scope}
+            // Betingelsen er et boolsk udtryk, og vil enten være sand eller falsk
+            // Er den sand afvikles kodeblokken markeret med {}, ellers springes det over.
+            //
+            // if (condition)
+            // {
+            //  //Do something
+            // }
+            //
+
+
+
+            string name = "Kenneth";
+
+            if (name == "Kenneth")
+            {
+                Console.WriteLine("Hello Kenneth");
+            }
+
+            // spørger om de to værdier er forskellige
+
+            string name1 = "kenneth";
+
+            if (name1 != "Kenneth")
+
+            {
+                Console.WriteLine("You are not Kenneth");
+            }
+
+            // Spørger om den venstre værdi er større end den højre
+
+            int health = 100;
+            if (health > 0)
+            {
+                Console.WriteLine("I have more than 1 health left");
+            }
+
+            // Spørger om den venstre side er mindre end den højre
+
+            int health1 = 100;
+
+            if (health1 > 0)
+            {
+                Console.WriteLine("I have less than 0 health left");
+            }
+
+            int health2 = 0;
+
+            if (health2 <= 0)
+            {
+                Console.WriteLine("I have 0 or less health left");
+            }
+
+            if (health <= 0)
+            {
+                // Kill player
+            }
+
+            if (health < 0)
+            {
+                //kill player
+            }
+
+            // && og "AND"
+            //
+            // Her skal to forskellige betingelser begge være opfyldt for at den samlede betingelse er opfyldt
+
+            int health3 = 100;
+            string name2 = "Kenneth";
+
+            if (health3 == 100 && name2 == "Kenneth")
+            {
+                Console.WriteLine("Hello Kenneth, you have 100 health");
+            }
+
+            // || eller "Or"
+            //
+            // Her skal blot en af betingelserne være opfyldt for at den samlede betingelse er opfyldt
+
+            int health4 = 99;
+            string name3 = "Kenneth";
+
+            if (health4 == 100 || name3 == "Kenneth")
+            {
+                Console.WriteLine("Hello Kenneth with Health");
+            }
+
 
         }
     }
