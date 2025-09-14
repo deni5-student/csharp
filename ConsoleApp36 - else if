@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp36
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Franz";
+
+            int health = 100;
+
+            if (name == "Frans")
+            {
+                Console.WriteLine("Hello Frans");
+            }
+            else if (health == 100)
+            {
+                Console.WriteLine("You are not frans, but you have full health");
+            }
+
+        }
+    }
+}
