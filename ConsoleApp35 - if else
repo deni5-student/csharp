@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp35
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // nested if sætning
+            string name = "Kenneth";
+            int health = 100;
+            if (name == "Kenneth")
+            {
+                Console.WriteLine("Hello Kenneth");
+
+                if (health == 100)
+                {
+                    Console.WriteLine("You have 100 health");
+                }
+            }
+
+            string name2 = "frans";
+
+            if (name2 == "franz")
+            {
+                Console.WriteLine("Hello Frans");
+            }
+            else
+            {
+                Console.WriteLine("You are not Frans");
+            }
+
+        }
+    }
+}
