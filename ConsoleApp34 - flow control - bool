@@ -1,0 +1,59 @@
+ConsoleApp34 - flow control - bool
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp34
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            bool alive = true;
+
+            if (alive == true)
+            {
+                Console.WriteLine("You are alive!");
+            }
+
+            if (alive)
+            {
+                Console.WriteLine("You are also alive!");
+            }
+
+
+            // en bool kan også bruges direkte i en if sætning
+            //
+            // ! Negation (NOT)  operatør gør den negativ
+
+            bool alive2 = false;
+
+            if (alive2 == false)
+            {
+                Console.WriteLine("You are dead");
+            }
+
+            if (!alive2)
+            {
+                Console.WriteLine("You are dead 2");
+            }
+
+            // if sætninger 
+            //  ( ) kan dele udtrykkende så de kan evalueres hver for sig
+
+            int health = 25;
+
+            bool alive3 = true;
+
+            if ((health > 0 && health < 50 ) && alive3)
+            {
+                Console.WriteLine("You are low on health");
+            }
+
+
+
+        }
+    }
+}
