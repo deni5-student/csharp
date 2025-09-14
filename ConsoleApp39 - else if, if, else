@@ -1,1 +1,31 @@
 ConsoleApp39 - else if, if, else
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp39
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Frans";
+
+            if (name=="Franz")
+            {
+                Console.WriteLine("Hello Franz");
+            }
+            else if (name == "Kenneth")
+            {
+                Console.WriteLine("Hello Kenneth");
+            }
+            else
+            {
+                Console.WriteLine("Who are you ?");
+            }
+
+        }
+    }
+}
