@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp43
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Skift mellem Kenneth og Franz
+            string name = "Kenneth";
+
+            if (name == "Kenneth")
+            {
+                Console.WriteLine("Hello Kenneth");
+            }
+            else if (name == "Franz")
+            {
+                Console.WriteLine("Hello Franz");
+            }
+        }
+    }
+}
