@@ -1,0 +1,31 @@
+ConsoleApp46 - switch case 5
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp46
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int age = 10;
+
+            switch (age)
+            {
+                case 10:
+                    Console.WriteLine("You are 10 years old");
+                    break;
+                case 20:
+                    Console.WriteLine("You are 20 years old");
+                    break;
+                case 30:
+                    Console.WriteLine("You are 30 years old");
+                    break;
+                // Break SKAL være der efter hver case
+            }
+        }
+    }
+}
