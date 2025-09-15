@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp44
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // bruger indtaster noget - tal
+            string tal = Console.ReadLine();
+
+            switch (tal)
+            {
+                case "1":
+                    Console.WriteLine("Hello 1!");
+                    break;
+                case "2":
+                    Console.WriteLine("Hello 2!");
+                    break;
+                case "3":
+                    Console.WriteLine("Hello 3!");
+                    break;
+                case "4":
+                    Console.WriteLine("Hello 4!");
+                    break;
+                case "5":
+                    Console.WriteLine("Hello 5!");
+                    break;
+            }
+
+        }
+    }
+}
