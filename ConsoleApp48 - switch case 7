@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp48
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int age = 15;
+
+            if (age == 10)
+            {
+                Console.WriteLine("You are 10 years old");
+            }
+            else if (age == 20)
+            {
+                Console.WriteLine("You are 20 years old");
+            }
+            else
+            {
+                Console.WriteLine("You are not 10 or 20 years old");
+            }
+        }
+    }
+}
